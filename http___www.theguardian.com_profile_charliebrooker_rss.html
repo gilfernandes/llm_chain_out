@@ -1,0 +1,234 @@
+<html>
+                <head>
+                    <meta charset="UTF-8" />
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+                </head>
+                <body>
+                    <div class="container-fluid">
+                        <h1>charliebrooker</h1>
+                        <h3>Sentiment Count</h3>
+                        <table class='table table-hover'><tr><th>Sentiment</th><th>Count</th></tr><tr><td style='max-width: 200px; width: 100px'>neutral</td><td>6</td></tr><tr><td style='max-width: 200px; width: 100px'>negative</td><td>13</td></tr><tr><td style='max-width: 200px; width: 100px'>positive</td><td>1</td></tr></table>
+                        <h4>Categories Count</h4>
+                        <table class='table table-hover'><tr><th>Category</th><th>Count</th></tr><tr><td style='max-width: 200px; width: 100px'>lifestyle</td><td>4</td></tr><tr><td style='max-width: 200px; width: 100px'>technology</td><td>9</td></tr><tr><td style='max-width: 200px; width: 100px'>arts</td><td>7</td></tr><tr><td style='max-width: 200px; width: 100px'>politics</td><td>9</td></tr><tr><td style='max-width: 200px; width: 100px'>society</td><td>11</td></tr><tr><td style='max-width: 200px; width: 100px'>environment</td><td>1</td></tr></table>
+                        <h4>Keywords Count</h4>
+                        <table class='table table-hover'><tr><th>Keywords</th><th>Count</th></tr><tr><td style='max-width: 200px; width: 100px'>charlie brooker</td><td>8</td></tr><tr><td style='max-width: 200px; width: 100px'>technology</td><td>3</td></tr><tr><td style='max-width: 200px; width: 100px'>internet</td><td>3</td></tr><tr><td style='max-width: 200px; width: 100px'>david cameron</td><td>3</td></tr><tr><td style='max-width: 200px; width: 100px'>ed miliband</td><td>3</td></tr><tr><td style='max-width: 200px; width: 100px'>black mirror</td><td>2</td></tr><tr><td style='max-width: 200px; width: 100px'>prime minister</td><td>2</td></tr><tr><td style='max-width: 200px; width: 100px'>cameron</td><td>2</td></tr><tr><td style='max-width: 200px; width: 100px'>ukip</td><td>2</td></tr><tr><td style='max-width: 200px; width: 100px'>apple watch</td><td>2</td></tr></table>
+                        <table border="1" class="table table-striped table-hover dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>content</th>
+      <th>title</th>
+      <th>sentiment</th>
+      <th>keywords</th>
+      <th>sentiment_category</th>
+      <th>classification</th>
+      <th>topics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td><p>The Black Mirror creator invents exciting products to transform your life – from the workout that makes you feel like a saint to the world’s cleverest toilet <br></p><p>I don’t know if you’ve noticed, but happiness is in sharp decline. Many people blame technology for our woes, and it’s not hard to see why. The internet is nothing but deranged screeching and fascist memes sitting atop a plateau of moldering desperation masquerading as ironic meaninglessness. No one has smiled in real life since 2011. But wait! Silicon Valley is waking up to the negative effect its products can have on us, and like the good Samaritans they are, they’re unveiling a whole new range of products aimed at making us feel good about ourselves. Here is an exclusive look at just a <em>few</em> of the cool gizmos and rad gadgets due to be unveiled at next year’s CES Consumer Electronics Show and featured in news reports, and then in shops, and then in your house before you even know it.</p> <a href="https://www.theguardian.com/tv-and-radio/2019/jun/01/get-ready-for-crudstergram-charlie-brooker-gadgets-to-save-the-world">Continue reading...</a></td>
+      <td>Get ready for Crudstergram! Charlie Brooker's gadgets to save the world</td>
+      <td>Neutral.</td>
+      <td>Keywords: Black Mirror, creator, products, transformation, workout, technology, happiness, decline, internet, Silicon Valley, negative effect, gizmos, gadgets, CES Consumer Electronics Show, Crudstergram, Charlie Brooker, save the world.</td>
+      <td>neutral</td>
+      <td>technology, lifestyle, arts</td>
+      <td>lifestyle,technology,arts</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><p>As the anthology series Black Mirror returns, its creator explains what fuels the show’s twisted tales – and tells us where we’re going wrong with technology</p><p>A sadistic version of The X Factor where contestants perform for their own freedom. An immersive experience where criminals are subjected to the same terrors they inflicted on their victims, in front of a baying audience. A grotesque cartoon demagogue using TV and social media to obtain power. No, these aren’t scenes from the first term of a Donald Trump presidency, but something only marginally less traumatising, and infinitely more likely to happen: Charlie Brooker’s techy anthology series Black Mirror, a show its creator describes as made up of “deliciously horrible ‘what if’s”.</p><p>Few shows have wormed their way into the nation’s collective nightmares like Black Mirror, the new series of which premieres on Netflix from next Friday. <a href="https://www.theguardian.com/tv-and-radio/2015/feb/06/black-mirror-charlie-brooker-box-set-review">Over two Channel 4 series</a> and <a href="https://www.theguardian.com/tv-and-radio/2014/dec/17/black-mirror-white-christmas-great-british-bake-off">a feature-length Christmas special</a>, Black Mirror has depicted unpleasant scenarios from the not-too distant future, in a way that has at times felt almost eerily prophetic. Four years before the lurid #piggate allegations about David Cameron came to light, there was <a href="https://www.theguardian.com/tv-and-radio/shortcuts/2015/sep/21/pigs-prime-minister-black-mirror-ashcroft-allegation-charlie-brooker">The National Anthem, a Black Mirror episode where the prime minister is forced to have relations with a farmyard animal</a>. Even when Black Mirror isn’t that prescient it always manages to summon up some malignant future spirit that speaks to our technological preoccupations of the present, from AI to augmented reality.</p> <a href="https://www.theguardian.com/tv-and-radio/2016/oct/14/charlie-brooker-black-mirror-tinder-pokemon-go">Continue reading...</a></td>
+      <td>Charlie Brooker: ‘The more horrible an idea, the funnier I find it’</td>
+      <td>Neutral.</td>
+      <td>Keywords: Black Mirror, technology, Charlie Brooker, anthology series, dystopian future, AI, augmented reality, social media, TV, horror, prophetic, prescient, #piggate, The National Anthem, David Cameron, future spirit, immersive experience, sadistic, X Factor, demagogue, power, baying audience, criminals, victims, grotesque cartoon.</td>
+      <td>neutral</td>
+      <td>Technology, Arts</td>
+      <td>technology,arts</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><p>We’ve had the bloodletting of the Ed Wedding. Now we’ve got the full-fat Tory government that virtually no one predicted</p><p>It was supposed to be more complicated. After the vote, they said we’d have to get out the constitutional slide rule to try to work out who’d won. The <a href="http://en.wikipedia.org/wiki/Minority_government">Wikipedia entry on “minority government”</a> experienced a huge spike in traffic. There were more bitter arguments about legitimacy than five seasons of Jeremy Kyle. Everyone agreed the election would herald the gravest constitutional crisis since the abdication, or that time <a href="http://www.theguardian.com/media/2007/jan/18/bigbrother.raceintheuk">Jade Goody slagged off Shilpa Shetty</a> on Big Brother. Many said Ed Miliband was certain to become prime minister.</p><p>Yep. That’s what they said.</p> <a href="https://www.theguardian.com/commentisfree/2015/may/11/cameron-rebooted-five-more-years-tory-government-no-one-predicted">Continue reading...</a></td>
+      <td>Cameron rebooted: five more years of a shiny computerised toe in a prime-ministerial suit</td>
+      <td>Negative.</td>
+      <td>Keywords: bloodletting, Ed Wedding, full-fat Tory government, vote, constitutional slide rule, minority government, legitimacy, election, constitutional crisis, abdication, Jade Goody, Shilpa Shetty, Big Brother, Ed Miliband, prime minister, Cameron, five more years, shiny computerised toe, prime-ministerial suit.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>What sort of person can’t decide who to vote for, but can rate how much they like whatever they’re hearing out of five, and wants to sit there tapping a button accordingly?<p>As the general election scuttles closer, the campaign grows more confusing by the moment, so it’s good that last week’s seven-way leaders’ debate brought some much-needed mayhem to the situation. Not so long ago we were bemoaning the lack of choice in a two-party system. Now we’ve got option paralysis.</p><p>It had its moments. Nigel Farage complained about foreigners with HIV who enter Britain&nbsp;and immediately start wolfing down expensive medicine: greedy as well as sick. You’d think Farage might welcome immigrants with grave illnesses on the basis that they’re less likely to hang around as long, but apparently not. Say what you like about him – say it, write it down, daub it in 3ft-high cherry-red letters up the side of a prominent overpass on his regular commute if you must – but it’s undeniably refreshing to see a politician determined to speak his mind, indifferent to the absurd constraints of spin or basic human empathy. Never mind HIV sufferers – how much is Britain spending on refugees with cancer? Maybe he could put that statistic on a sandwich board and patrol the country in it, perhaps while ringing a bell and loudly commanding passersby to picture a nation under his command.</p> <a href="https://www.theguardian.com/commentisfree/2015/apr/06/leaders-debate-option-paralysis-opinion-worm-election">Continue reading...</a></td>
+      <td>The leaders’ debate: option paralysis and the wriggling opinion worm | Charlie Brooker</td>
+      <td>Negative.</td>
+      <td>Keywords: general election, campaign, leaders' debate, option paralysis, Nigel Farage, immigrants, HIV, medicine, politicians, spin, empathy, refugees, cancer, statistics, opinion worm.</td>
+      <td>negative</td>
+      <td>politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>For somebody who did less for Britain than, say, Olly Murs, we’re making a dreadful fuss of our late monarch<p>Who’s your favourite dead king? For me it’s a toss-up between King Henry VIII (likes: Greensleeves, beheadings) and Nat King Cole (likes: chestnuts roasting on an open fire, Jack Frost nipping at your nose). Those are definitely my top two.</p><p>Below them, there’s King Kong, King George III, Good King Wenceslas, and about 500 other assorted types of king before you get to Richard III. Never warmed to him. Don’t know why. I’ve just never really been into Richard III. Maybe it’s his Savile-esque haircut, or the fact that his name is widely used as rhyming slang for fecal matter, or just the way he’s routinely depicted as a murderous, scheming cross between Mr Punch and Quasimodo; a panto villain with nephews’ blood on his hands.</p> <a href="https://www.theguardian.com/commentisfree/2015/mar/24/why-tug-our-forelocks-to-richard-iii-a-king-whos-such-a-diva-that-he-needs-two-funerals">Continue reading...</a></td>
+      <td>Why tug our forelocks to Richard III, a king who’s such a diva that he needs two funerals?</td>
+      <td>Negative.</td>
+      <td>Keywords: Olly Murs, late monarch, King Henry VIII, Nat King Cole, King Kong, King George III, Good King Wenceslas, Richard III, Savile-esque haircut, panto villain, two funerals.</td>
+      <td>negative</td>
+      <td>arts, society</td>
+      <td>society,arts</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><p>The prime minister has refused to go head-to-head with Ed Miliband – and the multi-party debate we are getting will be a 90-minute cry for help on behalf of the democratic system</p><p>Last week, Germany chose its entry for this year’s Eurovision: Heart of Stone, performed by Andreas Kümmert, former winner of the German version of The Voice (which is known as The Voice of Germany in its native country, rather than Die Stimme von Deutschland. Presumably the producers didn’t want to put viewers off by making it sound too German).</p><p>After wailing his guts out and winning the public vote, Kümmert abruptly announced, on live TV, that he didn’t actually want to “do” Eurovision after all, and awarded his “prize” to the runner-up instead. A chorus of boos broke out. German boos. Buhen.</p> <a href="https://www.theguardian.com/commentisfree/2015/mar/09/how-to-solve-election-debate-fiasco-charlie-brooker">Continue reading...</a></td>
+      <td>How to solve the election debate fiasco: Cameron watches at home, Gogglebox-style</td>
+      <td>Neutral.</td>
+      <td>Keywords: prime minister, Ed Miliband, multi-party debate, democratic system, Germany, Eurovision, Andreas Kümmert, The Voice, public vote, runner-up, fiasco, Cameron, Gogglebox.</td>
+      <td>neutral</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><p>Researchers have created a version of Mario that experiences basic emotions – now he needs a purpose that affects the real world</p><p>• <a href="http://www.theguardian.com/technology/2015/jan/19/mario-adaptive-learning-artificial-intelligence">It’s-a-me, Mario! And soon I’ll be playing my games without your help …</a></p><p>January is traditionally a fairly sleepy month, current affairs-wise, but a horrified gawp at the news confirms that&nbsp;2015 has already had one heck of a&nbsp;morning. Clearly it takes a lot to knock&nbsp;a garish underage sex allegation involving Prince Andrew off the news agenda, but the Parisian terror attacks managed it, partly&nbsp;because&nbsp;the horror of it all warranted such blanket coverage, but also because the resulting&nbsp;conversation about freedom of speech is&nbsp;taking up so many column inches, there’s scarcely room to run anything else. There hasn’t&nbsp;been this much furious debate about the&nbsp;merits of a cartoon since the introduction of&nbsp;Scrappy Doo.</p><p>(Fun imaginary scenario: in a bid to revive their flagging ratings, ITV launch a live, feelgood Saturday night version of Celebrity Pictionary. But chaos ensues when Paddy McGuinness pulls&nbsp;the first card from the deck to discover it requires him to sketch the Prophet Muhammad.)</p> <a href="https://www.theguardian.com/commentisfree/2015/jan/19/mario-self-aware-researchers-basic-emotions-charlie-brooker">Continue reading...</a></td>
+      <td>The new Mario is self aware. How long before he goes inside you to fix things? | Charlie Brooker</td>
+      <td>neutral</td>
+      <td>Keywords: Mario, basic emotions, purpose, real world, adaptive learning, artificial intelligence, Parisian terror attacks, freedom of speech, self-aware, researchers.</td>
+      <td>neutral</td>
+      <td>technology</td>
+      <td>technology</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><p>Products I’ve made up for the sheer giddy thrill of it include Total Farage Plus, which skilfully Photoshops the Ukip leader into whatever you’re looking at</p><p>This week it’s the Consumer Electronics Show in Las Vegas, an annual opportunity for tech companies to unveil their latest gizmos during January’s traditional slow news week, thereby picking up precious coverage that might otherwise be spent detailing something – anything – more important than an egg whisk with a USB port in the side.</p><p>At the time of writing, the show is yet to kick off, although some of the offerings have already been unveiled – such as “Belty”, the world’s first “smart belt”, which monitors your waistline and tells you when it’s time to lose weight, just like a mirror or a close friend might. More excitingly, it adjusts to your girth (again, like a close friend might), and will tighten or loosen itself according to your current level of blubber. No word yet on whether it’s possible to pop a Belty round your neck and order it to squeeze you into the afterlife, but there’s no reason they can’t incorporate that feature in Belty 2.0, except maybe on basic ethical, moral and humanitarian grounds.</p> <a href="https://www.theguardian.com/commentisfree/2015/jan/05/selfie-stick-really-useful-inventions-ces-charlie-brooker">Continue reading...</a></td>
+      <td>Never mind the 'selfie stick' – here are some REALLY useful inventions | Charlie Brooker</td>
+      <td>Neutral.</td>
+      <td>Keywords: Total Farage Plus, Ukip leader, Consumer Electronics Show, tech companies, latest gizmos, slow news week, Belty, smart belt, waistline, lose weight, adjust to girth, afterlife, ethical, moral, humanitarian grounds.</td>
+      <td>neutral</td>
+      <td>technology, lifestyle</td>
+      <td>lifestyle,technology</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>From flooding to Benefits Street, the rise of Ukip to the Apple Watch, the year was filled with huge, grim events. We could all use a lie-down over Christmas<p>So 2014’s almost done, and unless you got married, or had your firstborn, or won a Subaru filled with Maltesers in a radio phone-in, it’s unlikely to be a year you’ll remember fondly. It was filled with huge, grim events. So is every year, of course, but in 2014 it seemed there were fewer light moments to offset the enveloping dread. And everyone seemed angry, all the time. A whole planet, gritting its teeth. Hundreds protesting. Thousands marching. Millions waiting to attach their internalised rage to a hashtag at a&nbsp;moment’s notice. We could all use a lie-down over Christmas.</p><p>The year started badly for Britain when the sky decided to waterboard the lot of us. It rained incessantly throughout early January; big grey raindrops the size of cupboards. The government issued snorkels to anyone under 5ft 4in, while areas of Devon were submerged for so long the residents evolved gills and blowholes.</p> <a href="https://www.theguardian.com/commentisfree/2014/dec/22/goodbye-cruel-2014-we-promise-not-to-miss-you">Continue reading...</a></td>
+      <td>Goodbye, cruel 2014: we promise not to miss you once you’ve gone | Charlie Brooker</td>
+      <td>Negative.</td>
+      <td>Keywords: flooding, Benefits Street, Ukip, Apple Watch, year, events, Christmas, angry, protesting, marching, rage, hashtag, Britain, rain, government, Devon, gills, blowholes.</td>
+      <td>negative</td>
+      <td>environment, society, politics</td>
+      <td>politics,environment,society</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><p>The John Lewis and Sainsbury’s ads have kickstarted an earlier-than-ever festive season in which we’ll shop or click our way to bankruptcy chasing 15% off the top Christmas products. But beware of My Friend Cayla …</p><p>Hey, remember when Christmas used to last 12 days? Now it’s so bloated it’s virtually an epoch, lasting twice as long as the year it falls in. The early-warning signs keep changing: not so long ago the start of the holiday season was signified by the release of the Christmas edition of the Radio Times. Now it’s the annual unveiling of <a href="http://www.theguardian.com/business/video/2014/nov/06/monty-penguin-john-lewis-christmas-advert-video">the John Lewis ad</a>, which this year features a boy arranging for a trafficked overseas bird to be smuggled into the country inside a small container and presented like a gift-wrapped object to the laddish penguin mate who exists only in his troubled mind. They say psychopathic murderers often start their “careers” by doing ghastly things to animals: hopefully they’ll keep the storyline going year after year, as his illusory brain-penguin commands him to carry out increasingly hideous yuletide ceremonies, until eventually the advert consists of nothing but him appeasing the Penguin King by dancing in the moonlight wearing a necklace of ears and eyeballs, all of it seen through the sights of a police marksman positioned on the roof of a neighbour’s evacuated home.</p><p>But this year, the John Lewis ad has been overshadowed by gargantuan supermarket and noted humanitarian anti-war campaigner J Sainsbury PLC, and its <a href="http://www.theguardian.com/media/2014/nov/13/sainsburys-christmas-advert-recreates-first-world-war-truce">tear-jerking period piece</a> in which a perfectly good war is ruined by a tragic outbreak of football.</p> <a href="https://www.theguardian.com/commentisfree/2014/nov/24/christmas-2014-john-lewis-sainsbury-ads-top-christmas-products">Continue reading...</a></td>
+      <td>A trafficked penguin, a creepy talking doll and trench warfare | Charlie Brooker</td>
+      <td>negative</td>
+      <td>Keywords: John Lewis, Sainsbury's, festive season, Christmas, shopping, bankruptcy, My Friend Cayla, holiday season, Radio Times, Monty Penguin, trafficked bird, laddish penguin, psychopathic murderers, animals, yuletide ceremonies, Penguin King, police marksman, J Sainsbury PLC, tear-jerking period piece, war, football, Charlie Brooker.</td>
+      <td>negative</td>
+      <td>society, arts</td>
+      <td>society,arts</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td><p>If the fashion industry truly cared about the future of our planet, it would issue a solitary line of unisex, one-size-fits-all smocks, then shut down for good</p><p>So then. Alongside <a href="http://www.independent.co.uk/news/uk/politics/ed-miliband-fails-to-look-normal-while-eating-bacon-sandwich-ahead-of-whistlestop-campaign-tour-9409301.html">“eating a sandwich”</a> and <a href="http://www.theguardian.com/politics/2014/jun/13/ed-miliband-liverpool-sun-labour-hillsborough-phone-hacking">“holding up a copy of a newspaper”</a>, we now have to add “wearing a T-shirt” to the growing list of Ordinary Things Ed Miliband Somehow Just Can’t Do. The other week he was pictured in Elle magazine wearing the Fawcett Society’s “<a href="http://www.theguardian.com/commentisfree/2014/oct/27/david-cameron-this-is-not-what-a-feminist-looks-like">This Is What a Feminist Looks Like”</a> T-shirt. Last Sunday the Mail claimed <a href="http://www.theguardian.com/world/2014/nov/02/fawcett-society-feminist-t-shirts-allegedly-sweatshop-conditions">those T-shirts are stitched together in a Mauritian sweatshop</a> by women earning 62p an hour.</p><p>A T-shirt. He can’t even wear a T-shirt without somehow condemning both himself and any surrounding witnesses to ridicule. What’s going to trip him up next? A doorknob? Next week he operates a doorknob so badly he fractures his wrist, and as the medics wheel him to the operating theatre, they accidentally knock an ageing war veteran off a waiting room chair, leaving him groaning in pain on the floor, at which point Miliband insists they stop his gurney so he can lean over and help the guy up, but he forgets about his fractured wrist, so as the 96-year-old decorated-war-hero-and-humbling-inspiration-to-us-all gingerly grabs his hand, Miliband abruptly screeches a barrage of agonised obscenities directly into his face, causing him to hit the floor again, fatally this time, in front of the world’s media, oh and also Miliband does a frightened little wee at the end, and they film that too.</p> <a href="https://www.theguardian.com/commentisfree/2014/nov/03/slogan-t-shirt-ed-miliband-fashion-industry-ruins-everything">Continue reading...</a></td>
+      <td>Charlie Brooker | The fashion industry is responsible for everything that’s wrong with the world</td>
+      <td>Negative.</td>
+      <td>Keywords: fashion industry, planet, unisex, one-size-fits-all, smocks, Ed Miliband, T-shirt, Fawcett Society, Mauritian sweatshop, ridicule, doorknob, fractured wrist, war veteran, media, slogan.</td>
+      <td>negative</td>
+      <td>politics, society</td>
+      <td>politics,society</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>It’s a stealth adventure with nowhere to hide and hundreds of respawning enemies waiting to attack you the moment you stand out in any way<p>I haven’t always been the kind of man who plays videogames. I used to be the kind of boy who played videogames. We’re inseparable, games and I. If&nbsp;you cut me, I’d bleed pixels. Or blood. Probably&nbsp;blood, come to think of it.</p><p>Games get a bad press compared with, say, opera – even though they’re obviously better, because no opera has ever compelled an audience member to collect a giant mushroom and jump across some clouds. Nobody writes articles in which opera-lovers are mocked as adult babies who never grew out of make-believe and sing-song; obsessive misfits who flock to weird “opening nights” wearing elaborate “tuxedo” <a href="http://www.theguardian.com/lifeandstyle/2014/may/13/cosplay-sci-fi-weekender-dressing-up-fantasy-characters" title="">cosplay</a> outfits.</p> <a href="https://www.theguardian.com/commentisfree/2014/oct/20/gamergate-internet-toughest-game-woman-enemies">Continue reading...</a></td>
+      <td>Gamergate: the internet is the toughest game in town – if you’re playing as a woman | Charlie Brooker</td>
+      <td>Neutral.</td>
+      <td>Keywords: stealth adventure, respawning enemies, videogames, opera, audience, giant mushroom, make-believe, sing-song, cosplay, Gamergate, internet, woman, Charlie Brooker.</td>
+      <td>neutral</td>
+      <td>technology, arts, society</td>
+      <td>society,technology,arts</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Exaggeration is the official language of the internet. Only the most strident statements have any impact. Oversteer and oversell, all the time<p>The other day I was talking to a music fan who’d recently gone to see one of Kate Bush’s widely praised live appearances. Naturally I was keen to hear a first-hand account of this era-defining event, so I asked what it was like.</p><p>“The first half was great,” she said. “But the second half got a bit boring.”</p> <a href="https://www.theguardian.com/commentisfree/2014/oct/06/internet-hyperbole-charlie-brooker">Continue reading...</a></td>
+      <td>This awesome dissection of internet hyperbole will make you cry and change your life | Charlie Brooker</td>
+      <td>Negative.</td>
+      <td>Keywords: Exaggeration, language, internet, strident statements, oversteer, oversell, music fan, Kate Bush, live appearances, era-defining event, first-hand account, boring, hyperbole, Charlie Brooker.</td>
+      <td>negative</td>
+      <td>Category: Society, Arts</td>
+      <td>society,arts</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>The all-new iPhones and Apple Watch can be easily avoided but there’s no escaping iOS 8<p>The past few weeks haven’t been great for Apple. First they were implicated in <a href="http://www.theguardian.com/world/2014/sep/02/naked-photos-jennifer-lawrence-violent-videos-internet">the stolen celebrity nude photo disaster</a>, which reminded everybody how easily clouds leak. Correct me if I’m wrong, but I don’t think the iPhone is generally marketed as a diabolical timewasting device with the potential to wreak a grotesque and devastating invasion of your personal privacy. They tend to focus more on all the cool colours it comes in.</p><p>Then they launched the horrible-looking <a href="http://www.theguardian.com/technology/apple-watch">Apple Watch</a>, which does everything an iPhone can do, but more expensively and pointlessly, and on a slightly different part of your body. Only an unhealthily devoted Apple fanatic could bear to wear a Apple Watch, and even that poor notional idiot would have to keep putting their iPhone down in order to operate the damn thing. It’ll scarcely be used for telling the time, just as the iPhone is scarcely used for making calls. It’s not a watch. It’s a gaudy wristband aimed at <a href="http://www.theguardian.com/commentisfree/2013/aug/05/woman-nearly-died-making-ipad">raising awareness of Chinese factory conditions</a>. Or a handy visual tag that helps con artists instantly identify gullible rich idiots in a crowd.</p> <a href="https://www.theguardian.com/commentisfree/2014/sep/22/apple-software-updates-iphone-watch-ios-8">Continue reading...</a></td>
+      <td>Apple’s software updates are like changing the water in a fish tank. I’d rather let the fish die | Charlie Brooker</td>
+      <td>Negative.</td>
+      <td>Keywords: Apple, iPhones, Apple Watch, iOS 8, celebrity nude photo scandal, privacy, technology, Chinese factory conditions, software updates, Charlie Brooker.</td>
+      <td>negative</td>
+      <td>technology, society</td>
+      <td>society,technology</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>The first rule of panic mode is you don’t talk about panic mode. And this is purely for personal reasons, but I don’t want Scotland to reject us<p>It used to be unthinkable. Now it’s thinkable. In fact, in some minds, it’s already been thought. Scotland might be voting yes to independence and splitting from the rest of the union. I’m not Scottish, and I’m therefore powerless to intervene, although I would personally prefer Scotland to stay – but only for entirely selfish and superficial reasons. Reason one: I’d rather not be lumbered with a Tory government from now until the day the moon crashes into the Thames. Two: I quite like Scotland and the Scottish, so it’s hard not to feel somehow personally affronted by their rejection. Why did you just unfriend and unfollow me, Scotland? What did I ever do to you? What’s that? Sorry, you’ll have to slow down a bit. Can’t understand a word you’re saying. Don’t you come with subtitles?! Ha ha ha! No, seriously, come back. Scotland? Scotland?</p><p>Apparently the consequences of a split in the union could be calamitous. The skies will fall and the seas will boil and the dead shall rise and the milk will spoil. There will be a great disturbance in the force. Duncan’s horses will turn and eat each other. Starving ravens will peck out your eyes <a href="http://www.theguardian.com/tv-and-radio/tvandradioblog/live/2014/sep/03/the-great-british-bake-off-2014-episode-five-as-it-happens" title="">halfway through the Great British Bake Off</a>. Your dad will give birth to a jackal full of hornets. And in London’s last remaining DVD shop, Gregory’s Girl will quietly be re-categorised as “world cinema”.</p> <a href="https://www.theguardian.com/commentisfree/2014/sep/08/scottish-independence-david-cameron-no-campaign-windows-8">Continue reading...</a></td>
+      <td>David Cameron can’t help the No campaign – he’s less popular in Scotland than Windows 8</td>
+      <td>Negative.</td>
+      <td>Keywords: panic mode, Scotland, independence, Tory government, calamitous consequences, union, rejection, personal reasons, selfish, superficial, Duncan's horses, Starving ravens, jackal full of hornets, Gregory's Girl, No campaign, David Cameron, Windows 8.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Russia v Ukraine, Isis, Boris Johnson, Cliff Richard and Ebola – there's not much to be cheerful about right now, though the ice bucket challenge is working overtime<p>Ah. Right. Looks like I picked a bad week to draw inspiration from current affairs for this knockabout comedy column. The news is rarely a warehouse of carefree chuckles but at the moment it's like an apocalyptic playlist on perpetual shuffle, with one harrowing crisis overlapping another. Palestine, Libya, Syria … it's all horrifying and upsetting. Not a single nice thing has happened all year, except the recent stealth launch of Cadbury's Wispa Biscuits, and even "stealth launch of Wispa Biscuits" sounds like a&nbsp;terrible euphemism for breaking wind.</p><p>The planet is currently playing host to countless alarming crises. There's the nail-biting tension of Russia v Ukraine, a depressing standoff overseen by facial-expression-avoider Vladimir Putin. I don't know if all the strings connecting Putin's face muscles to his brain were accidentally severed during a tragic smiling accident years ago, but I've seen brickwork convey more emotion.</p> <a href="https://www.theguardian.com/commentisfree/2014/aug/25/2014-simon-cowell-bucket-head-russia-ukraine-isis-boris-johnson-cliff-richard-ebola-ice-bucket">Continue reading...</a></td>
+      <td>2014 is so horrible, nothing can cheer us up. Not even Simon Cowell with a bucket on his head | Charlie Brooker</td>
+      <td>Negative.</td>
+      <td>Keywords: Russia v Ukraine, Isis, Boris Johnson, Cliff Richard, Ebola, Cadbury's Wispa Biscuits, Palestine, Libya, Syria, Vladimir Putin, tension, crisis, current affairs, news, apocalyptic, playlist, upsetting, horrifying, stealth launch, euphemism, breaking wind, facial-expression-avoider, emotion, Simon Cowell, bucket head, Charlie Brooker.</td>
+      <td>negative</td>
+      <td>Politics: Russia v Ukraine, Isis, Boris Johnson\nSociety: Cliff Richard, Ebola\nLifestyle: Ice bucket challenge</td>
+      <td>politics,society,lifestyle</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>I decided to introduce my son to video games. We soon found one he liked … and I mean really, really liked<p>So I decided to introduce my two-year-old son to the world of video games. Before you accuse me of hobbling my offspring's mind, I'd like to point out that a) television is 2,000 times worse, so shove that up your Night Garden and b) I also decided to counterbalance the gaming with exposure to high culture. For every 10 minutes of&nbsp;Fruit Ninja during daylight hours, he'd get 10 pages of a critically acclaimed novel at bedtime. We're currently halfway through <a href="http://www.theguardian.com/books/booksblog/2011/jul/31/summer-readings-the-magus-john-fowles" title="">The Magus</a> by John Fowles, which he's enjoying immensely. He&nbsp;finds some passages so moving that his protracted sobs drown out my reading completely, and when I return to the beginning of the chapter to start again, he leaps up screaming, trying to snatch the book out of my hands with delight.</p><p>Like any self-respecting 2014 toddler, he can swipe, pat and jab at games on a smartphone or tablet, but smartphone games aren't real games. They're interactive dumbshows designed to sedate suicidal commuters. And they're not just basic but insulting, often introducing themselves as <a href="http://www.theguardian.com/technology/2014/jun/17/free-to-play-mobile-games-freemium" title="">free-to-play</a> simply so they can extort money from you later in exchange for more levels or less&nbsp;terrible gameplay. Either that or they fund themselves with pop-up adverts that defile the screen like streaks on a toilet bowl.</p> <a href="https://www.theguardian.com/commentisfree/2014/aug/11/want-to-silence-a-two-year-old-charlie-brooker">Continue reading...</a></td>
+      <td>Want to silence a two-year-old? Try teaching it to ride a motorbike | Charlie Brooker</td>
+      <td>Positive.</td>
+      <td>Keywords: video games, toddler, high culture, Fruit Ninja, smartphone games, free-to-play, pop-up adverts.</td>
+      <td>positive</td>
+      <td>Lifestyle, Technology, Arts</td>
+      <td>lifestyle,technology,arts</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Ukip has made thousands from merchandise on its online store. What could the other parties learn from it?<p>It can't be easy trying to fund a political movement in the current climate, when politicians are about as popular as a wasp in a submarine. You'd have more luck organising a whip-round for President Assad. That's why politicians are forced to suck up to billionaire donors, who expect them to tailor their policies accordingly, thereby further widening the gulf between parties and the public.</p><p>But wait. Not all parties are alike. The Daily Telegraph has revealed that, last year, Ukip made a whopping £80,000 from <a href="http://www.telegraph.co.uk/news/politics/ukip/10994923/Ukip-on-sale-party-makes-80000-from-selling-umbrellas-polyester-ties-and-bumper-stickers.html" title="">flogging branded merchandise</a> to the public from its online store.</p> <a href="https://www.theguardian.com/commentisfree/2014/jul/28/ukip-merchandise-other-parties-charlie-brooker">Continue reading...</a></td>
+      <td>How can a party sell a policy when it can't even sell a decent keyring? | Charlie Brooker</td>
+      <td>Negative.</td>
+      <td>Keywords: Ukip, merchandise, online store, political movement, funding, billionaire donors, policies, public, branded merchandise, Daily Telegraph, £80,000, flogging, umbrellas, polyester ties, bumper stickers, parties, Charlie Brooker.</td>
+      <td>negative</td>
+      <td>politics, society</td>
+      <td>politics,society</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>The Data Retention and Investigatory Powers bill is the most tedious outrage ever, right down to the dreary acronym. But oh, the horrors it will bring …<p>David Cameron cares about your safety. It's all he ever thinks about. It's his passion. He's passionate about it. Every time David Cameron thinks about how safe he'd like to keep you, passion overcomes him and he has to have a lie down. With his eyes shut. A bit like he's having a nap and doesn't care about your safety at all.</p><p>Right now he's so committed to keeping you safe, he's rushing something called the Drip bill through the House of Commons. Drip stands for Data Retention and Investigatory Powers and critics are calling it yet another erosion of civil liberties and … see, I've lost you because it's just so bloody boring. Maybe it's just me, but whenever I hear about some fresh internet privacy outrage my brain enters screensaver mode and displays that looped news footage of mumblin' Edward Snowden and I automatically nod off only to be awoken shortly afterwards by the sound of my forehead colliding sharply with the table.</p> <a href="https://www.theguardian.com/commentisfree/2014/jul/14/drip-government-data-retention-investigatory-powers-bill-horrors">Continue reading...</a></td>
+      <td>What is Drip and how, precisely, will it help  the government ruin your life? | Charlie Brooker</td>
+      <td>negative</td>
+      <td>Keywords: Data Retention and Investigatory Powers bill, Drip bill, civil liberties, internet privacy, Edward Snowden, government surveillance, David Cameron, safety, erosion of privacy.</td>
+      <td>negative</td>
+      <td>politics, technology, society</td>
+      <td>politics,society,technology</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Facebook's emotion study reveals it is hopelessly disconnected from emotional reality: that people get upset when people they care about are unhappy<br /><br />• <a href="http://www.theguardian.com/commentisfree/2014/jun/30/facebook-sad-manipulating-emotions-socially-responsible-company">Alex Hern: The final straw for Facebook?</a><p>This weekend we learned that <a href="http://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds" title="">Facebook had deliberately manipulated the emotional content of 689,003 users' news feeds</a> as part of an experiment to see what kind of psychological impact it would have. For one week in January 2012, some&nbsp;users saw chiefly positive stories (kitten videos, brownie recipes and assorted LOLs), while others were force-fed despair (breakups, health woes and seal-clubbing holiday snaps). And guess what happened?</p><p>"The results show emotional contagion," decided the scientists.</p> <a href="https://www.theguardian.com/commentisfree/2014/jun/30/facebook-evil-emotional-study-charlie-brooker">Continue reading...</a></td>
+      <td>Time for the emperors-in-waiting who run Facebook to just admit they're evil | Charlie Brooker</td>
+      <td>negative</td>
+      <td>Keywords: Facebook, emotion study, emotional reality, upset, care, manipulated, psychological impact, emotional contagion, social responsibility, ethics.</td>
+      <td>negative</td>
+      <td>technology, society</td>
+      <td>society,technology</td>
+    </tr>
+  </tbody>
+</table>
+                    </div>
+                </body>
+            </html>
