@@ -1,0 +1,232 @@
+<html>
+                <head>
+                    <meta charset="UTF-8" />
+                    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+                </head>
+                <body>
+                    <div class="container-fluid">
+                        <h1>/johncrace/rss</h1>
+                        <h3>Sentiment Count</h3>
+                        <table class='table table-hover'><tr><th>Sentiment</th><th>Count</th></tr><tr><td style='max-width: 200px; width: 100px'>neutral</td><td>2</td></tr><tr><td style='max-width: 200px; width: 100px'>negative</td><td>15</td></tr><tr><td style='max-width: 200px; width: 100px'>positive</td><td>1</td></tr><tr><td style='max-width: 200px; width: 100px'>very negative</td><td>2</td></tr></table>
+                        <h4>Categories Count</h4>
+                        <table class='table table-hover'><tr><th>Category</th><th>Count</th></tr><tr><td style='max-width: 200px; width: 100px'>politics</td><td>17</td></tr><tr><td style='max-width: 200px; width: 100px'>technology</td><td>1</td></tr><tr><td style='max-width: 200px; width: 100px'>society</td><td>7</td></tr><tr><td style='max-width: 200px; width: 100px'>lifestyle</td><td>1</td></tr><tr><td style='max-width: 200px; width: 100px'>arts</td><td>2</td></tr></table>
+                        <table border="1" class="table table-striped table-hover dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>content</th>
+      <th>title</th>
+      <th>sentiment</th>
+      <th>keywords</th>
+      <th>sentiment_category</th>
+      <th>classification</th>
+      <th>topics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td><p>US president’s $1tn infrastructure act pales into insignificance against prime minister’s five priorities</p><p><strong>Rishi Sunak</strong>: Good morning, Mr President.</p><p><strong>Joe Biden</strong>: Er … good morning … er … I’m sorry, who are you?</p> <a href="https://www.theguardian.com/politics/2023/jun/08/rishi-sunak-talks-up-his-hectic-schedule-in-bilat-with-joe-biden">Continue reading...</a></td>
+      <td>Rish! talks up his hectic schedule in bilat with Biden | John Crace</td>
+      <td>neutral</td>
+      <td>Keywords: US president, infrastructure act, $1tn, prime minister, priorities, Rishi Sunak, Joe Biden, meeting, schedule, bilateral.</td>
+      <td>neutral</td>
+      <td>politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td><p>Despite big talk on AI, trade and Ukraine, it’s obvious to all PM’s visit is a waste of his and Joe’s time</p><p>Sometimes it pays to listen to the subconscious. Rishi Sunak likes to imagine he is an above average sentient being. That he has <a href="https://www.theguardian.com/politics/2023/jun/07/rishi-sunak-talks-up-free-trade-on-his-way-to-washington-dc-to-meet-joe-biden">decided to go to the US</a> because he wants to get things done. To save the world from artificial intelligence. To talk up a trade deal between the UK and the US. To drum up support for Ukraine.</p><p>Only let’s think this one through. Rish! somehow thinks he has a better grasp on the dangers of AI than anyone else. Maybe because his own thought processes more often resemble artificial stupidity. The reality is he’s no better clued up than anyone else. Probably far less than the Americans, Indians and Chinese. But Sunak is desperate for a mission in life and is trying to position himself as a world statesman. Even though any global agreement would unlikely to be brokered by a country that had just severed its international ties with the EU.</p> <a href="https://www.theguardian.com/politics/2023/jun/07/rish-demonstrates-incapabilities-artificial-stupidity-us-jolly">Continue reading...</a></td>
+      <td>Rish! demonstrates the incapabilities of artificial stupidity during US jolly | John Crace</td>
+      <td>negative</td>
+      <td>Keywords: AI, trade deal, Ukraine, Rishi Sunak, US visit, global agreement, world statesman, artificial stupidity.</td>
+      <td>negative</td>
+      <td>politics, technology</td>
+      <td>politics,technology</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td><p>A lavatorial brush with royalty precedes a day in court for our sketch writer</p><p>Surreal moment, number one. It’s 10 minutes before proceedings are due to start and a visit to the gents is in order. Outside I find a muscle-bound security guard with an earpiece. He seems friendly enough and doesn’t try to stop me entering. Inside there is only one other man, Prince Harry, washing his hands. We look at each other and both do a double-take. Thinking the same thought: “What the hell are you doing here?” But we’re both thoroughly British. So we just smile at one another and say “hello”. He then dries his hands and leaves. My brush with royalty.</p><p>Surreal moment, number two. Prince Harry being in court 15 of the Rolls Building at all. I mean, WTF? The royals normally go out of their way to avoid controversy. The idea of a court appearance would spark a total meltdown. <a href="https://www.theguardian.com/uk-news/2023/jun/02/baccarat-scandal-prince-harry-last-royal-cross-examination">The last time a senior royal was cross-examined was in 1891.</a></p> <a href="https://www.theguardian.com/uk-news/2023/jun/06/from-the-gents-to-the-witness-box-harry-has-little-to-say">Continue reading...</a></td>
+      <td>From the gents to the witness box – Harry has little to say</td>
+      <td>Neutral.</td>
+      <td>Keywords: lavatorial brush, royalty, day in court, sketch writer, surreal moment, muscle-bound security guard, gents, Prince Harry, court appearance, controversy, cross-examined, witness box.</td>
+      <td>neutral</td>
+      <td>society</td>
+      <td>society</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td><p>We were promised the tech bro who could feel our pain, but Rishi Sunak merely inflicts it</p><p>The Midas touch was always going to be too much of an ask. It’s far too late in the day for miracles. But the Tories had been expecting something a little better than what they’ve been given. To put it bluntly, Rishi Sunak is a disappointment. If he was a morning TV chatshow host he would have long since been sent out by his bosses to apologise for being alive. Though, given his current performance levels, he would probably have found a way to cock that up as well.</p><p>We had been led to believe that Rish! was a break with the past. A different type of prime minister than Boris Johnson and Liz Truss. Someone with little charisma – the Conservatives had had more than enough of personalities – but who could be trusted to have a basic level of competence. Would get up in the morning and dress himself successfully. Might even have read the contents of his red box rather than wing it. Expectations really were that low.</p> <a href="https://www.theguardian.com/politics/2023/jun/05/rish-as-prime-minister-makes-2017s-maybot-sound-like-advanced-ai">Continue reading...</a></td>
+      <td>Rish! as prime minister makes 2017’s Maybot sound like advanced AI | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: Rishi Sunak, disappointment, competence, expectations, prime minister, Boris Johnson, Liz Truss, charisma, red box, Maybot, advanced AI, John Crace.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td><p>A note-perfect finale, Boris Johnson’s WhatsApp messages and my role in an England cricketing hero’s downfall</p><p>SPOILER ALERT: After 39 episodes, five years and four seasons, <a href="https://www.theguardian.com/tv-and-radio/2023/may/29/succession-recap-the-finale-probably-the-most-feel-bad-ending-in-tv-history">Succession bowed out with a note-perfect finale</a>. All loose ends more or less tied up. Most of all it has been a satisfying if disconcerting psychological journey throughout. Writing that somehow made you care about characters who were fundamentally dislikable.</p> <a href="https://www.theguardian.com/uk-news/2023/jun/01/digested-week-what-next-for-succession-fundamentally-dislikable-characters">Continue reading...</a></td>
+      <td>Digested week: imagining what comes next for Succession’s dislikable characters | John Crace</td>
+      <td>positive</td>
+      <td>Keywords: Succession, finale, Boris Johnson, WhatsApp messages, England cricket, downfall, psychological journey, characters, dislikable.</td>
+      <td>positive</td>
+      <td>arts, lifestyle</td>
+      <td>lifestyle,arts</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td><p>After Watson’s stint at No 10, she made headlines with her tales of having to ‘nanny’ Boris Johnson. Now she’s written a bonkbuster set in Westminster – and John Crace has read it so you don’t have to</p><p>It’s 11pm. The only things moving in the chamber of the House of Commons are the mice, who are shagging enthusiastically under the speaker’s chair. Out on the terrace of Strangers’ – the preferred Westminster drinking hole for many MPs and their researchers – are a group of young incels who wish they had the sexual charisma of an <a href="https://www.theguardian.com/politics/2023/may/10/andrew-bridgen-becomes-first-reclaim-mp-after-expulsion-from-tories">Andrew Bridgen</a>. In her ground-floor office, Natasha Weaver, the secretary of state for the industrial economy, is speaking to a journalist on the phone about the latest gossip from cabinet. Behind her is her special adviser, with bulging trousers.</p><p>“You’d better shove it in,” she coos, romantically. “I haven’t got much time.”</p> <a href="https://www.theguardian.com/books/2023/may/30/cleo-watson-whips-digested-john-crace">Continue reading...</a></td>
+      <td>‘I never doubted you! Now, let’s have sex’ – Cleo Watson’s Whips, digested by John Crace</td>
+      <td>negative</td>
+      <td>Keywords: Cleo Watson, Westminster, bonkbuster, Andrew Bridgen, House of Commons, Strangers, incels, sexual charisma, Natasha Weaver, industrial economy, special adviser, gossip, cabinet, John Crace.</td>
+      <td>negative</td>
+      <td>Category: Politics, Society, Arts</td>
+      <td>politics,society,arts</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td><p>The prime minister thought the ITV sofa was a good place to be on another day of missed targets. He was wrong</p><p>It was a no-brainer, I guess. A choice between doing the Today programme and Sky News, or a 20-minute stint on This Morning, on the day your government yet again <a href="https://www.theguardian.com/uk-news/2023/may/25/uk-net-migration-record-high-despite-tory-promises-cut-arrivals">misses its immigration targets</a>. Though judging by how uncomfortable Rishi Sunak looked on the ITV sofa, maybe even that was a step too far for the prime minister. He just doesn’t have the homey, man-of-the-people vibes. Principally because he isn’t. Rish! oozes privilege out of every pore. The country is merely a Goldman Sachs case study.</p><p>“It’s great to be here,” said Sunak, looking like he couldn’t wait to head for the exit. As if he had realised that even the soft format could soon become rather uncomfortable. Alison Hammond <a href="https://www.theguardian.com/media/2023/may/21/alison-hammond-and-dermot-oleary-step-in-at-post-schofield-this-morning">may be a stand-in</a> for Holly Willoughby and Craig Doyle may be a stand-in for a stand-in – Dermot O’Leary, the replacement for Phillip Schofield, was off celebrating his 50th birthday – but neither of them are mugs. Worryingly for Rish! they also talk human. So there was bound to be a culture clash.</p> <a href="https://www.theguardian.com/politics/2023/may/25/rishi-sunak-this-morning-stand-ins-make-mincemeat-of-record">Continue reading...</a></td>
+      <td>This Morning’s stand-ins make mincemeat of Rish!’s record | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: prime minister, ITV sofa, missed targets, Today programme, Sky News, immigration targets, Rishi Sunak, man-of-the-people, privilege, Goldman Sachs, Alison Hammond, Dermot O'Leary, culture clash, This Morning, record.</td>
+      <td>negative</td>
+      <td>politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td><p>Sunak and Starmer seem trapped in an endless loop at PMQs. The real action was elsewhere </p><p>Remarkable, really. Call it the joys of cognitive dissonance. Listen to Rishi Sunak speak for more than a few seconds and you will get the impression you are living in some kind of nirvana. That the UK is a blissed-out superstate. A land of plenty, where joy is unconstrained.</p><p>Prime minister’s questions appears now to be on an endless loop. A new dimension of space-time in which everything invariably comes back to the same point. The format is always the same. Keir Starmer asks some relatively straightforward question about an area of government policy he thinks isn’t working so well, and Rish! just denies it. Worse than that, he gets really upset if his reality is in any way challenged.</p> <a href="https://www.theguardian.com/politics/2023/may/24/boris-johnson-rishi-sunak-keir-starmer-pmqs-sketch">Continue reading...</a></td>
+      <td>Boris Johnson’s blue-on-blue warfare overshadows the usual Rish! routine | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: Sunak, Starmer, PMQs, cognitive dissonance, Rishi Sunak, UK, government policy, Keir Starmer, reality, Boris Johnson, blue-on-blue warfare, John Crace.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td><p>Not many Tories turned up to defend the home secretary but Jeremy Quin, the government’s Mr Loophole, was there to urbanely brush her actions aside</p><p>Jeremy Quin entered the Commons with a smile on his face. A smile that widened to a grin when he looked up towards the press gallery. He appreciates an audience. Besides, the minister for the Cabinet Office has a new job. The thinking man’s Michael Ellis.</p><p>Ellis was the go-to minister sent out by Boris Johnson to defend the indefensible. A job that Mikey was more than happy to do as he is impossibly needy. Not to mention obsequious. There is nothing he wouldn’t do to position himself a millimetre closer to power.</p> <a href="https://www.theguardian.com/politics/2023/may/23/hapless-jeremy-quin-the-go-to-minister-speeds-to-suella-braverman-rescue">Continue reading...</a></td>
+      <td>Hapless Jezza, the go-to minister, speeds to Suella Braverman’s rescue | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: Tories, home secretary, Jeremy Quin, government, Mr Loophole, Commons, smile, press gallery, minister, Cabinet Office, Michael Ellis, Boris Johnson, indefensible, Mikey, needy, obsequious, power, Suella Braverman, John Crace.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td><p>The home secretary clearly broke the ministerial code. But there she still is, refusing to engage with reality</p><ul><li><a href="https://www.theguardian.com/politics/live/2023/may/22/suella-braverman-rishi-sunak-speeding-row-ministerial-code-ethics-inquiry-keir-starmer-uk-politics-live">UK politics live – latest updates</a></li></ul><p>We’re a long way past the point where we need to ask what exactly Suella Braverman has on Rishi Sunak. Has she somehow got hold of a recording of a telephone call in which Dominic Raab thanks the prime minister for joining him on one of his regular nocturnal killing sprees? Has she got hold of a video of Rish! telling Goldman Sachs clients how best to avoid paying tax? Or is there CCTV footage of Sunak snorting coke and leading the singing at the Abba party during lockdown? Whatever it is, it must be weapons-grade kompromat.</p><p>It’s the only thing that makes sense. Why else is she still in her job? Indeed, why was she even made home secretary in the first place? When Rish! got the top job he made a point of saying he was going to be different from what had come before. He was going to govern with “integrity, professionalism and accountability”. So what’s the first thing he did? Appoint Suella to one of the four big offices of state just six days after she had been fired for breaking the ministerial code by leaking government policy via her private email.</p> <a href="https://www.theguardian.com/politics/2023/may/22/how-long-can-sunak-swerve-braverman-speeding-ministerial-code">Continue reading...</a></td>
+      <td>How long can Sunak swerve the obvious on Braverman’s speeding? | John Crace</td>
+      <td>negative</td>
+      <td>Keywords: home secretary, ministerial code, Suella Braverman, Rishi Sunak, Dominic Raab, prime minister, nocturnal killing sprees, Goldman Sachs, tax, CCTV footage, kompromat, job, integrity, professionalism, accountability, government policy, private email, John Crace.</td>
+      <td>negative</td>
+      <td>politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td><p>Olive’s one purpose is to make his boss look good – just what a PM heading for opposition needs</p><p>Cometh the hour, cometh the man. At last, a deputy whom Rishi Sunak can trust. Trust to be thoroughly mediocre. The last thing an interim prime minister – there’s an unquestionable lightness of being to Rish!: even he doesn’t seem to know what he stands for – who is grooming his party for opposition really wants is a number two biting at his heels.</p><p>Certainly not a malign presence like Dominic Raab who would smile while killing you. And who you know believes he would do a far better job. Just biding his time. Though Dom has a lot of time on his hands these days.</p> <a href="https://www.theguardian.com/politics/2023/may/17/dowden-is-perfect-fit-as-sunak-dependably-mediocre-deputy">Continue reading...</a></td>
+      <td>Dowden is perfect fit as Sunak’s dependably mediocre deputy | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: Olive, boss, PM, opposition, deputy, Rishi Sunak, trust, mediocre, interim prime minister, party, number two, Dominic Raab, killing, biding his time, Dowden, dependably mediocre.</td>
+      <td>negative</td>
+      <td>politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td><p>Mikey No Mates is, for the first time in his life, the most moderate person in the room </p><p>You might wonder what a cabinet minister is doing at a National Conservatism conference. A group of conspiracy theorists and populist weirdos that already assumes the Conservatives have failed and are fighting for the soul of the party in opposition. That most Tory MPs need to be deselected in favour of candidates with purer Conservative thoughts.</p><p>On Monday, Suella Braverman <a href="https://www.theguardian.com/politics/2023/may/15/tory-mps-accuse-suella-braverman-of-undermining-sunak-authority">hadn’t given it a second thought</a>. No opportunity to stoke the culture wars should ever be passed up. A chance to meet her tribe, her fanbase. To stake a claim as a leader in waiting.</p> <a href="https://www.theguardian.com/politics/2023/may/16/michael-gove-leaves-everyone-feeling-theyve-been-natconned">Continue reading...</a></td>
+      <td>Michael Gove leaves everyone feeling they’ve been NatConned | John Crace</td>
+      <td>negative</td>
+      <td>Keywords: Mikey No Mates, moderate, cabinet minister, National Conservatism conference, conspiracy theorists, populist weirdos, Conservatives, Tory MPs, deselected, purer Conservative thoughts, Suella Braverman, culture wars, leader in waiting, Michael Gove, NatConned, John Crace.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td><p>Welcome to the National Conservativism conference, a coming together of ideologies for the ideologically challenged</p><p>We’re spoiled. On Saturday we were gifted the Take Control conference of the Conservative Democratic Organisation. A collection of 200 or so weirdos, led by Nadine Dorries and Andrea Jenkyns, whose lives have been devastated by the absence of Boris Johnson. A keening for a flake of his life. A seance, even. Needless to say, Johnson himself couldn’t be bothered to attend in person. Instead sending down a few signed bottles – not ones he had bought, obviously – to be auctioned in his memory.</p><p>On Monday, for three days only, we are now being treated to the National Conservatism conference. The Nat Cons. A meeting of minds for those who think that Viktor Orbán and Giorgia Meloni might have a point. A coming together of ideologies for the ideologically challenged. The sort of audience where <a href="https://www.theguardian.com/books/jordan-peterson">Jordan Peterson</a> would get a hero’s welcome. Not that he bothers with venues as small as the Emmanuel Centre in London these days.</p> <a href="https://www.theguardian.com/politics/2023/may/15/tories-preach-baby-making-and-the-facts-of-life-why-does-it-always-come-back-to-sex-with-these-oddballs">Continue reading...</a></td>
+      <td>Tories preach baby-making and the facts of life – why does it always come back to sex with these oddballs? | John Crace</td>
+      <td>negative</td>
+      <td>Keywords: National Conservatism conference, ideologies, Conservative Democratic Organisation, Nadine Dorries, Andrea Jenkyns, Boris Johnson, Viktor Orbán, Giorgia Meloni, Jordan Peterson, Emmanuel Centre, London.</td>
+      <td>negative</td>
+      <td>politics, society</td>
+      <td>politics,society</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td><p>Business secretary insults her way through interrogation by MPs as she threatens bonfire of workers’ rights</p><p>Why make friends, when it’s so much easier to make enemies? Kemi Badenoch’s default mode of interaction is always to be patronising and condescending.</p><p>She can’t help herself. It’s a narcissistic variant. She is unable to imagine herself as anything other than always right about everything. Even when she has been forced to change her mind. So, in her mind, anyone who disagrees with her or dares to even question her is automatically branded as stupid. Hardly worth her time bothering with them.</p> <a href="https://www.theguardian.com/politics/2023/may/11/kemi-badenoch-makes-enemies-with-narcissistic-commons-appearance">Continue reading...</a></td>
+      <td>Kemi Badenoch provides masterclass in how to lose friends and influence | John Crace</td>
+      <td>The sentiment of the article is very negative.</td>
+      <td>Keywords: Business secretary, MPs, workers' rights, insults, patronising, condescending, narcissistic, disagreement, questioning, stupidity, Kemi Badenoch, masterclass, losing friends, influence, John Crace.</td>
+      <td>very negative</td>
+      <td>politics, society</td>
+      <td>politics,society</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td><p>Prime minister wilts after losing more than 1,000 councillors and surprisingly decent gags from Keir Starmer </p><p>Don’t mention the war. The Tory benches were fairly subdued ahead of prime minister’s questions. As if everyone had been mainlining Mogadon. And that was just those who had made the effort to show up. Most had chosen to stay away and the larger Conservative MPs were encouraged to manspread. One way of filling the gaps.</p><p>There was little chat. Most seemed lost in their own worlds. A vortex of despair. Contemplating their own mortality. After last week’s local election results, there are many Tories who sense <a href="https://www.theguardian.com/politics/2023/may/06/this-election-bloodbath-was-bad-enough-for-the-tories-tactical-voting-labour-brexit-general-election">they are nearing their sell-by date</a>.</p> <a href="https://www.theguardian.com/politics/2023/may/10/cheerless-rish-leaves-the-commons-cold-after-election-disaster">Continue reading...</a></td>
+      <td>Cheerless Rish! leaves the Commons cold after election disaster | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: Prime Minister, councillors, Keir Starmer, Tory benches, Prime Minister's Questions, Mogadon, Conservative MPs, local election results, sell-by date, Rish.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td><p>So what if the age of King Charles started with curbs on the power to protest?  Few in the Commons were going to fuss</p><p>Move along. Nothing to see here. Of course you have a right to peaceful protest. Just as I have a right to arrest you if I feel like it. So it would be a good idea for you to move quietly behind this grandstand so that the BBC cameras can’t film you. Not that they would. They know their place. Besides, they will never do another royal event if they do. So move along quietly. Is that a Velcro fastener on your jacket? A belt round your waist? Planning to lock on, are we? Then you’re nicked. God save the king.</p><p>It had all been just a bit of a coincidence. One of those things. You know how it is. You rush through a new Public Order Act and then suddenly find you’ve got a hastily arranged once in a lifetime (TM) – well maybe twice in a lifetime (TM) – coronation to police. God save the king.</p> <a href="https://www.theguardian.com/politics/2023/may/09/makes-you-proud-to-be-british-banging-people-up-god-save-the-king">Continue reading...</a></td>
+      <td>Makes you proud to be British, banging people up. God save the king</td>
+      <td>The sentiment of the given text is 'very negative'.</td>
+      <td>Keywords: King Charles, curbs on power, protest, Commons, peaceful protest, arrest, grandstand, BBC cameras, royal event, Velcro fastener, belt, lock on, Public Order Act, coronation, police, God save the king, British, banging people up.</td>
+      <td>very negative</td>
+      <td>politics, society</td>
+      <td>politics,society</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td><p>It was hard to escape the sense of the absurd as a 21st-century democracy relived a medieval fantasy</p><p>It rained. Of course it did. It wouldn’t have been a proper coronation if it hadn’t. Brits wouldn’t have had it any other way. We were born to suffer. Keep calm and carry on.</p><p>The first guests had started arriving at Westminster Abbey from early in the morning. Among them the lucky MPs <a href="https://www.theguardian.com/uk-news/2023/may/03/kings-coronation-whos-on-the-guest-list-and-who-isnt-and-why">who had received an invitation</a>. Though many Tories had been complaining it was all a stitch-up by Number 10. That Rishi Sunak had hand-picked favourites and those he wanted to get on side. Whatever. Let’s hope they had strong bladders. It was going to be a long morning.</p> <a href="https://www.theguardian.com/uk-news/2023/may/06/strong-bladders-required-for-interminable-faffing-of-king-charles-coronation">Continue reading...</a></td>
+      <td>Strong bladders required for interminable faffing of King Charles’s coronation | John Crace</td>
+      <td>negative</td>
+      <td>Keywords: absurd, 21st-century democracy, medieval fantasy, coronation, rain, Brits, suffering, Westminster Abbey, MPs, invitation, Tories, stitch-up, Number 10, Rishi Sunak, favourites, bladders, long morning, interminable faffing, King Charles.</td>
+      <td>negative</td>
+      <td>Category: Politics, Society</td>
+      <td>politics,society</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td><p>Shock for party chair who had previously expected everything to be all right on the night and learned not to try too hard</p><p>First manage your expectations.</p><p>When the Tory party chair, Greg Hands, announced last week that he expected the Conservatives to lose 1,000 seats in the local elections, he was being characteristically disingenuous. What he really meant was that the Tories would lose between 500 and 600 seats and he would be able to take to the airwaves and crow about his party having done far better than anyone imagined. The plucky Conservatives yet again seizing triumph from a potential disaster. And it would all be down to him and <a href="https://twitter.com/JAHeale/status/1638253096273866784">his idiotic tweets of a 13-year-old Liam Byrne gag</a>. At least we won’t be seeing them again.</p> <a href="https://www.theguardian.com/politics/2023/may/05/devil-of-a-local-election-result-for-tories-makes-work-for-idle-hands">Continue reading...</a></td>
+      <td>Devil of a local election result for Tories makes work for idle Hands | John Crace</td>
+      <td>Negative.</td>
+      <td>Keywords: Shock, party chair, expectations, Tory, Greg Hands, Conservatives, local elections, disingenuous, plucky, triumph, disaster, idiotic tweets, Liam Byrne, The Guardian, John Crace.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td><p>There’s apathy over the king, frustration in the football, and Great Expectations disappoints</p><p>For one of the jubilees – I can’t remember which one as there have been so many of them and we have lived in the same house for nearly 30 years – it seemed as if you couldn’t move for street parties in our patch of south-west London. For this weekend’s <a href="https://www.theguardian.com/uk-news/2023/may/03/what-to-expect-at-the-kings-coronation-key-events-and-timings">coronation</a>, there isn’t even one, so far as I know. It just feels as if no one is that bothered. We’d probably turn up to one if somebody else made the effort to organise it, but nobody has been prepared to make the first move.</p> <a href="https://www.theguardian.com/uk-news/2023/may/05/digested-week-no-one-seems-bothered-by-the-coronation-were-all-royalled-out">Continue reading...</a></td>
+      <td>Digested week: no one seems bothered by the coronation – we’re all royalled out | John Crace</td>
+      <td>The sentiment of the passage is negative.</td>
+      <td>Keywords: apathy, king, frustration, football, Great Expectations, jubilees, street parties, south-west London, coronation, effort, organise, royalled out, John Crace.</td>
+      <td>negative</td>
+      <td>society</td>
+      <td>society</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td><p>MPs vanish as Rish! turns PMQs into excruciating session of prime minister’s evasions</p><p>Call it coronation fever. An inexplicable urge to dash home and cover everything with red, white and blue bunting. Call it local elections fever. That time of the year when politicians head for their constituencies to declare the council to either be the best or the worst in the country.</p><p>Or maybe it’s just that the reputation of prime minister’s questions now precedes it. The last few PMQs have been excruciating for all concerned. Whatever the reason, the <a href="https://www.theguardian.com/politics/2023/may/03/starmer-accuses-rishi-sunak-of-killing-the-dream-of-home-ownership#:~:text=Keir%20Starmer%20has%20accused%20Rishi,privileged%20and%20out%20of%20touch.">Commons was sparsely populated for this week’s session</a>. And most of those who did show up soon wondered why they had bothered.</p> <a href="https://www.theguardian.com/politics/2023/may/03/rish-marks-new-government-drive-with-flurry-of-fibs-at-pmqs">Continue reading...</a></td>
+      <td>Rishi Sunak sends MPs away with a flurry of fibs at PMQs</td>
+      <td>negative</td>
+      <td>Keywords: MPs, Rishi Sunak, PMQs, evasions, coronation fever, local elections fever, reputation, sparsely populated, fibs.</td>
+      <td>negative</td>
+      <td>Category: Politics</td>
+      <td>politics</td>
+    </tr>
+  </tbody>
+</table>
+                    </div>
+                </body>
+            </html>
